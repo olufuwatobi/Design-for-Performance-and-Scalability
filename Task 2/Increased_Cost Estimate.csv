@@ -1,0 +1,32 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,7988.48,95861.76,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (8000 GB), Instance type (m5dn.xlarge)"
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,6864.4,82372.80,USD,"Change records per statement (0.38), (4 instances)  db.r5.4xlarge  Memory optimized  OnDemand, Storage amount (900 GB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,162.43,1949.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),S3 Standard,0,1811.2,21734.40,USD,S3 Standard storage (80000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD,Data Transfer
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,965.7,11588.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,596.1,7153.20,USD,"Number of EC2 instances (6), Number of EIPs per instance (20)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Databases	         	4	6,864.40
+Network Load Balancer	        1	454.43
+Application Load Balancer	1	162.4
+Web & Application Servers	8	7,988.48
+Elastic IP			1	596.10
+S3 bucket			1	1,811.20
+NAT Gateway			2	155.70
+Total cost				18,842.74
+
+I in changed the Web & Application Instance to better one and double bled the number for high availability
+
+I increase the storage capacity of the S£ bucket
+
+I change the database instance to better one and double the number for high availability.
+
+I optimise the performance of the elastic IP 
+
+	

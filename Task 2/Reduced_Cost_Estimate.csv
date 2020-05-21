@@ -1,0 +1,28 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon EC2,0,2102.24,25226.88,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (4000 GB), Instance type (m5a.xlarge)"
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,1783.6,21403.20,USD,"Change records per statement (0.38), (2 instances)  db.r5.2xlarge  Memory optimized  OnDemand, Storage amount (900 GB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,162.43,1949.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),S3 Standard,0,1150,13800.00,USD,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Not selected) 0 TB per month 
+ Outbound (to: Not selected) 0 TB per month 
+"
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,155.7,1868.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,287.1,3445.20,USD,"Number of EC2 instances (6), Number of EIPs per instance (10)"
+
+
+
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+
+Databases	         	2	1,783.60
+Network Load Balancer	        1	454.43
+Application Load Balancer	1	162.4
+Web & Application Servers	4	2,102.24
+Elastic IP			1	287.10
+S3 bucket			1	1,150.00
+NAT Gateway			2	155.70
+Total cost				6,095.50
+
+I change the Instance type of the Database to reduce cost
+
+I also change the instance type of the Web & Application Server to reduce cost
